@@ -6,14 +6,16 @@ mountains_height = pd.Series(
     name="Height, m",
     dtype=float,
 )
-
+print("Слай по індексу  працює класично ")
 print(mountains_height[1:3])
 print("\n--------------------------\n")
+print("Слай по іменованому індексу включає і перший і останній елементи")
 print(mountains_height["Brebenskyl":"Petros"])
 
 # если индексы стандартные то  последний не входит , если как словарь то входит
 
-
+print("\n--------------------------\n")
+print("іменовані індекси є атрибутами обьекта і до них можна звертатись як звичайно ")
 print(mountains_height.Petros)
 print(mountains_height.Brebenskyl)
 
