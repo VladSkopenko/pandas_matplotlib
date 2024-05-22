@@ -14,7 +14,7 @@ print(mountains_height["Brebenskyl":"Petros"])
 
 # если индексы стандартные то  последний не входит , если как словарь то входит
 
-print("\n--------------------------\n")
+
 print("іменовані індекси є атрибутами обьекта і до них можна звертатись як звичайно ")
 print(mountains_height.Petros)
 print(mountains_height.Brebenskyl)
@@ -27,3 +27,6 @@ print(new_object_series)
 print("\n--------------------------\nОперація фільтрації створює новий обьект типу Series\n")
 new_object_series = mountains_height[mountains_height > 2030]
 print(new_object_series)
+print("\n--------------------------\n")
+print("Операція на входження in  перевіряє індекси а не значення")
+print("Goverla" in mountains_height)
