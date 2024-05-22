@@ -12,3 +12,16 @@ print("\n--------------------------\n")
 print(mountains_height["Brebenskyl":"Petros"])
 
 # если индексы стандартные то  последний не входит , если как словарь то входит
+
+
+print(mountains_height.Petros)
+print(mountains_height.Brebenskyl)
+
+# Можна обрашаться как к атрибуту или к индексу
+
+print("\n--------------------------\nОперація порівняння створює новий обьект типу Series\n")
+new_object_series = (mountains_height > 2030)
+print(new_object_series)
+print("\n--------------------------\nОперація фільтрації створює новий обьект типу Series\n")
+new_object_series = mountains_height[mountains_height > 2030]
+print(new_object_series)
