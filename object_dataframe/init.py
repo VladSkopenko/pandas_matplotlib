@@ -36,7 +36,7 @@ if __name__ == "__main__":
     print("\n-----------------------------------------------\n")
     print("Метод loc дозволяє фільтрувати та вибирати потрібні рядки наприклад за индексами або іншими значеннями")
     print(contacts.loc[1])
-    print(contacts.loc[contacts['favorite'] == True])
+    print(contacts.loc[contacts['favorite'] == True]) # НЕ ЕЛЕГАНТНО
     print("\n-----------------------------------------------\n")
     print("за индексом , починаючи з 0 і закінчуючи -1")
     print(contacts.iloc[1])

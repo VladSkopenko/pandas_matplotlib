@@ -10,3 +10,4 @@ from init import contacts
 if __name__ == "__main__":
     print("Срезы в Pandas")
     print(contacts[0:2])
+    print(contacts[contacts["favorite"]]) # ЕЛЕГАНТНО
