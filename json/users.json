@@ -1,4 +1,5 @@
-[{"name": "vlad", "password": "12345", "age": 24, "isAdmin": true},
-{"name": "oleg", "password": "1111", "age": 51, "isAdmin": true},
-{"name": "liuda", "password": "2222", "age": 44, "isAdmin": false}
+[
+    {"name": "vlad", "password": "12345", "age": 24, "isAdmin": true},
+    {"name": "oleg", "password": "1111", "age": 51, "isAdmin": true},
+    {"name": "liuda", "password": "2222", "age": 44, "isAdmin": false}
 ]
