@@ -1,4 +1,5 @@
 import pandas as pd
+from matplotlib import pyplot as plt
 
 data1 = {
     "name": {"1": "Michael", "2": "John"},
@@ -33,3 +34,6 @@ employees2 = pd.DataFrame(data2)
 employees = pd.concat([employees1, employees2], axis=1)
 
 print(employees)
+
+employees.plot()
+plt.show()

@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 print("Видалення елементів по індексу. pd.Series.drop([index1, index2, ...])")
 numbers = pd.Series([1, 2, 3, 4, 5])
 numbers.drop([1, 3], inplace=True)
@@ -17,3 +18,4 @@ employees = pd.DataFrame(data)
 employees = employees.drop(["2"], axis=0)
 employees = employees.drop(["age"], axis=1)
 print(employees)
+
