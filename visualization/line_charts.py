@@ -9,4 +9,5 @@ plt.ylabel('Температура', fontweight='bold', fontsize=14, color='Red'
 plt.title('Денна погода у м. Одеса', fontsize=15, )  # Назва графіка
 plt.text(date[3], 24, 'Весна дуже тепла', color="Black", fontsize=12)  # Добавить надпись
 plt.legend()
+
 plt.show()
