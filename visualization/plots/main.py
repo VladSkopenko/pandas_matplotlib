@@ -11,13 +11,13 @@ day_temp = [21, 20, 22, 21, 24, 21, 25, 21]
 mid_temp = [(x + y) / 2 for x, y in zip(night_temp, day_temp)]
 
 axs.plot(date, night_temp, label="Нічна темпетатура",
-         color="#061358", linestyle=":", linewidth=2, marker="o",)  # добавляет график
+         color="#061358", linestyle=":", linewidth=2, marker="D",)  # добавляет график
 
 axs.plot(date, day_temp, label="Денна темпетатура",
-         color="#FF5733", linestyle=":", linewidth=2, marker="o")  # добавляет график
+         color="#FF5733", linestyle=":", linewidth=2, marker="D")  # добавляет график
 
 axs.plot(date, mid_temp, label="Середня темпетатура",
-         color="green", linestyle=":", linewidth=2, marker="o")  # добавляет график
+         color="green", linestyle=":", linewidth=2, marker="D")  # добавляет график
 
 
 plt.ylim(10, 30) # Лимиты вертикальные
