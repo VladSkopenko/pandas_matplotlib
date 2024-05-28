@@ -7,9 +7,9 @@ fig, axs = plt.subplots()  # создает несколько графиков 
 night_temp = [15, 18, 14, 15, 18, 16, 19, 17]
 day_temp = [21, 20, 22, 21, 24, 21, 25, 21]
 mid_temp = [(x + y) / 2 for x, y in zip(night_temp, day_temp)]
-axs.plot(date, night_temp, label="Нічна темпетатура")  # добавляет график
-axs.plot(date, day_temp, label="Денна темпетатура")  # добавляет график
-axs.plot(date, mid_temp, label="Середня темпетатура")  # добавляет график
+axs.plot(date, night_temp, label="Нічна темпетатура", color="blue", linestyle="--")  # добавляет график
+axs.plot(date, day_temp, label="Денна темпетатура", color="red", linestyle=":")  # добавляет график
+axs.plot(date, mid_temp, label="Середня темпетатура", color="green", linestyle="-.")  # добавляет график
 
 plt.xlabel("Дата", fontsize=14,
            color="black", loc="center",
