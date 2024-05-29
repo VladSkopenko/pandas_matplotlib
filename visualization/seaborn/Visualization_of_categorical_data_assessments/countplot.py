@@ -6,5 +6,6 @@ data = sns.load_dataset("mpg")
 sns.countplot(x="origin", data=data)
 
 # распределение даных
+plt.savefig('countplot.png')
 plt.show()
 
